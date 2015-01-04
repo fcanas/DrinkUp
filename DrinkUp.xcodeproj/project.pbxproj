@@ -15,6 +15,7 @@
 		E7370AFB1A0168E5007F6891 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E7370AFA1A0168E5007F6891 /* Images.xcassets */; };
 		E7370AFE1A0168E5007F6891 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = E7370AFC1A0168E5007F6891 /* LaunchScreen.xib */; };
 		E7370B0A1A0168E6007F6891 /* DrinkUpTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7370B091A0168E6007F6891 /* DrinkUpTests.swift */; };
+		E76A086D1A03FF1400C35F32 /* iAd.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E76A086C1A03FF1400C35F32 /* iAd.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,7 @@
 		E7370B031A0168E6007F6891 /* DrinkUpTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DrinkUpTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E7370B081A0168E6007F6891 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E7370B091A0168E6007F6891 /* DrinkUpTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrinkUpTests.swift; sourceTree = "<group>"; };
+		E76A086C1A03FF1400C35F32 /* iAd.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = iAd.framework; path = System/Library/Frameworks/iAd.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +49,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E76A086D1A03FF1400C35F32 /* iAd.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +66,7 @@
 		E7370AE11A0168E5007F6891 = {
 			isa = PBXGroup;
 			children = (
+				E76A086C1A03FF1400C35F32 /* iAd.framework */,
 				E7370AEC1A0168E5007F6891 /* DrinkUp */,
 				E7370B061A0168E6007F6891 /* DrinkUpTests */,
 				E7370AEB1A0168E5007F6891 /* Products */,
@@ -413,6 +417,7 @@
 				E7370B0F1A0168E6007F6891 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E7370B101A0168E6007F6891 /* Build configuration list for PBXNativeTarget "DrinkUpTests" */ = {
 			isa = XCConfigurationList;
@@ -421,6 +426,7 @@
 				E7370B121A0168E6007F6891 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
